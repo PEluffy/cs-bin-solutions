@@ -63,7 +63,6 @@ function reduce(array, callback, initialValue) {
 // Challenge 7
 function intersection(arrays) {
   if (arrays.length <= 1) return [];
-  console.log(arrays.slice(1, arrays.length));
   return reduce(
     arrays.slice(1, arrays.length),
     (arr1, arr2) => {
