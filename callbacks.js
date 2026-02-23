@@ -92,7 +92,7 @@ function intersection(arrays) {
 
 // Challenge 8
 function union(arrays) {
-  if (arrays.length == 1) return arrays[0];
+  if (arrays.length === 1) return arrays[0];
   return reduce(
     arrays.slice(1, arrays.length),
     (arr1, arr2) => {
