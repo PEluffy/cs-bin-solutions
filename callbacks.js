@@ -11,7 +11,7 @@ function addTwo(num) {
 
 // Challenge 2
 function addS(word) {
-  return word + "S";
+  return word + "s";
 }
 
 // uncomment these to check your work
