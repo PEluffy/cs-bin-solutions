@@ -58,7 +58,7 @@ function reduce(array, callback, initialValue) {
   return first;
 }
 
-console.log(reduce([5, 2, 3, 20, 30], (a, b) => a + b, 40));
+// console.log(reduce([5, 2, 3, 20, 30], (a, b) => a + b, 40));
 
 // Challenge 7
 function intersection(arrays) {
